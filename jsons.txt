@@ -1,0 +1,89 @@
+{
+  /app/sign-up
+  input:
+  {
+    **username: string(),
+    *password: string(),
+    *firstName: string(),
+    *lastName: string(),
+    **email: string(),
+    **phone: string(),
+    image: string()
+  }
+  output:
+  successfully:
+  {
+    code: string(),
+    description: string()
+  }
+  error:
+  [
+    code: string(),
+    description: string()
+    errors: [] object
+  ]
+}
+
+{
+  /app/sign-up/verify-email
+  input:
+  {
+    **email: string(),
+  }
+  output:
+  {
+    code: string(),
+    description: string()
+  }
+}
+
+{
+  /app/sign-up/verify-username
+  input:
+  {
+    **username: string(),
+  }
+  output:
+  {
+    code: string(),
+    description: string()
+  }
+}
+
+{
+  /app/sign-up/verify-phone
+  input:
+  {
+    **phone: string(),
+  }
+  output:
+  valid phone:
+  {
+    phoneExist: {
+      code: string(),
+      description: string()
+    },
+    smsSend: {
+      code: string(),
+      description: string()
+    }
+  }
+  error and not valid:
+  {
+    code: string(),
+    description: string()
+  }
+}
+
+{
+  /app/sign-up/check-code
+  input:
+  {
+    **smsCode: string(),
+  }
+  output:
+  {
+    code: string(),
+    description: string()
+  }
+}

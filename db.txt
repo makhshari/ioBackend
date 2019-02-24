@@ -1,0 +1,15 @@
+1 - user:1 username dante25 firstName mohammad lastName hoshdar image ' '
+
+2 - phones id1 phone1 id2 phone2
+
+3 - emails id1 email1 id2 email2
+
+4 - passwords id1 password1 id2 password2
+
+5 - users-primary-phone phone1 id1 phone2 id2
+
+6 - users-primary-email email1 id1 email2 id2
+
+7 - users-primary-username username1 id1 username2 id2
+
+8- user-id id
