@@ -1,5 +1,5 @@
-# venmo-server
-an easy way to share payments with friends : back-end 
+# IoServer
+a java-script server for IoT platform 
 
 Variable and function name: camelCase
 File and foolder name: file-name
