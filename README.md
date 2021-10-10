@@ -1,5 +1,5 @@
-# IoServer
-a java-script server for IoT platform 
+# JS-Server
+a java-script **server prototype**
 
 Variable and function name: camelCase
 File and foolder name: file-name
