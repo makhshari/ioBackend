@@ -1,5 +1,5 @@
 # JS-Server
-a java-script **server prototype**
+a Javascript **server prototype**
 
 Variable and function name: camelCase
 File and foolder name: file-name
